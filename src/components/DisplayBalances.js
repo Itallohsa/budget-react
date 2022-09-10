@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Segment } from "semantic-ui-react";
 import DisplayBalance from "./DisplayBalance";
 
-function DisplayBalances() {
+const DisplayBalances = () => {
     return(
         <Segment textAlign='center'>
             <Grid columns={2} divided>
